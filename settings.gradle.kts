@@ -10,7 +10,13 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+    // Добавляем резолверы для Firebase плагинов
+    plugins {
+        id("com.google.gms.google-services") version "4.4.0"
+        id("com.google.firebase.crashlytics") version "2.9.9" apply false
+    }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -21,4 +27,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "BrainQuest"
 include(":app")
- 

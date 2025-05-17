@@ -31,7 +31,7 @@ public class QuizActivity extends AppCompatActivity {
     private int seconds = 0;
     private int totalTimeInMins = 1;
     private List<QuestionsList> questionsList;
-    private ProgressBar quizProgress; // Added progress bar reference
+    private ProgressBar quizProgress;
 
     private int currentQuestionPosition = 0;
     private String selectedOptionByUser = "";
@@ -264,8 +264,8 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     private void startTimer(TextView timerTextView) {
-        totalTimeInMins = 1;
-        seconds = 30;
+        totalTimeInMins = 3;
+        seconds = 0;
 
         try {
             quizTimer = new Timer();

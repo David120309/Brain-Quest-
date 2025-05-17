@@ -52,8 +52,8 @@ public class QuestionsBank {
                 "Ливерпуль",
                 "Реал Мадрид",
                 "Манчестер Юнайтед",
-                "Манчестер Сити",
-                "Манчестер Сити", "");
+                "Челси",
+                "Челси", "");
         final QuestionsList question9 = new QuestionsList("Какую команду называют Королевский клуб?",
                 "Манчестер Сити",
                 "Реал Мадрид",
@@ -79,11 +79,11 @@ public class QuestionsBank {
                 "Аргентина",
                 "Бразилия", "");
         final QuestionsList question13 = new QuestionsList("Кто является вратарём, получившим Золотой мяч?",
-                "Оливер Кан",
+                "Лев Яшин",
                 "Джанлуиджи Буффон",
                 "Икер Касильяс",
                 "Мануэль Нойер",
-                "Оливер Кан", "");
+                "Лев Яшин", "");
         final QuestionsList question14 = new QuestionsList("Сколько таймов в матче?",
                 "1",
                 "2",
@@ -164,7 +164,6 @@ public class QuestionsBank {
         final QuestionsList question4 = new QuestionsList("Чему равна сумма углов треугольника?",
                 "90°", "180°", "270°", "360°",
                 "180°", "");
-
         final QuestionsList question5 = new QuestionsList("Как называется число, которое умножается само на себя?",
                 "Произведение", "Сумма", "Квадрат", "Степень",
                 "Квадрат", "");
@@ -191,6 +190,31 @@ public class QuestionsBank {
                 "Умножение",
                 "Возведение в квадрат",
                 "Возведение в квадрат", "");
+        final QuestionsList question11 = new QuestionsList("Какая формула у теоремы Пифагора?",
+                "a² + b² = c²",
+                "a + b = c",
+                "abc = 1",
+                "a² = b² + c²",
+                "a² + b² = c²", "");
+        final QuestionsList question12 = new QuestionsList("Сколько процентов от 200 составляет 50?",
+                "20%",
+                "25%",
+                "30%",
+                "15%",
+                "25%", "");
+        final QuestionsList question13 = new QuestionsList("Сколько знаков после запятой в числе π?",
+                "2",
+                "Бесконечно",
+                "10",
+                "100",
+                "Бесконечно", "");
+        final QuestionsList question14 = new QuestionsList("Угол больше 90°, но меньше 180° — это?", "Прямой", "Острый", "Тупой", "Развёрнутый", "Тупой", "");
+        final QuestionsList question15 = new QuestionsList("Угол в 90° — это?", "Острый", "Прямой", "Тупой", "Развёрнутый", "Прямой", "");
+        final QuestionsList question16 = new QuestionsList("Что такое радиус круга?", "Длина окружности", "Расстояние от центра до окружности", "Диаметр", "Площадь круга", "Расстояние от центра до окружности", "");
+        final QuestionsList question17 = new QuestionsList("Сколько граней у куба?", "4", "6", "8", "10", "6", "");
+        final QuestionsList question18 = new QuestionsList("Если a = 2 и b = 3, то ab = ?", "5", "6", "8", "10", "6", "");
+        final QuestionsList question19 = new QuestionsList("Что больше: 5/8 или 4/5?", "5/8", "4/5", "Они равны", "Нельзя сравнить", "4/5", "");
+        final QuestionsList question20 = new QuestionsList("Чему равен 1% от 2000?", "2", "20", "200", "100", "20", "");
 
         questionsList.add(question1);
         questionsList.add(question2);
@@ -202,6 +226,16 @@ public class QuestionsBank {
         questionsList.add(question8);
         questionsList.add(question9);
         questionsList.add(question10);
+        questionsList.add(question11);
+        questionsList.add(question12);
+        questionsList.add(question13);
+        questionsList.add(question14);
+        questionsList.add(question15);
+        questionsList.add(question16);
+        questionsList.add(question17);
+        questionsList.add(question18);
+        questionsList.add(question19);
+        questionsList.add(question20);
 
         return questionsList;
     }
@@ -237,6 +271,37 @@ public class QuestionsBank {
         final QuestionsList question10 = new QuestionsList("Какая страна является самой большой по площади в мире?",
                 "Китай", "Канада", "Россия", "США",
                 "Китай", "");
+        final QuestionsList question11 = new QuestionsList(" Какая страна считается родиной Олимпийских игр?",
+                "Греция", "Канада", "Россия", "США",
+                "Греция", "");
+        final QuestionsList question12 = new QuestionsList("Какая страна первая вышла в космос?",
+                "Китай", "СССР", "Россия", "США",
+                "СССР", "");
+        final QuestionsList question13 = new QuestionsList("Какой континент полностью состоит только из одной страны?",
+                "Африка", "Антарктида", "Австралия", "Южная Америка",
+                "Австралия", "");
+        final QuestionsList question14 = new QuestionsList("В какой стране находится пустыня Сахара?",
+                "Ирак", "Саудовская Аравия", "Южная Африка", "Египет",
+                "Египет", "");
+        final QuestionsList question15 = new QuestionsList("Какую страну называют «страной тысячи озёр»?",
+                "Швеция", "Финляндия", "Россия", "Норвегия",
+                "Финляндия", "");
+        final QuestionsList question16 = new QuestionsList("Какой язык официальный в Бразилии?",
+                "Испанский", "Португальский", "Французский", "Итальянский",
+                "Португальский", "");
+        final QuestionsList question17 = new QuestionsList("Какая страна официально нейтральна и не участвует в войнах с XIX века?",
+                "Австрия", "Исландия", "Швейцария", "Люксембург",
+                "Швейцария", "");
+        final QuestionsList question18 = new QuestionsList("Страна, где национальное животное — кенгуру?",
+                "Южная Африка", "Бразилия", "Австралия", "Индонезия",
+                "Австралия", "");
+        final QuestionsList question19 = new QuestionsList("Какая страна производит больше всего кофе в мире?",
+                "Колумбия", "Канада", "Индонезия", "Бразилия",
+                "Бразилия", "");
+        final QuestionsList question20 = new QuestionsList("В какой стране официальная валюта — иена?",
+                "Китай", "Япония", "Вьетнам", "Южная Корея",
+                "Япония", "");
+
 
         questionsList.add(question1);
         questionsList.add(question2);
@@ -248,6 +313,16 @@ public class QuestionsBank {
         questionsList.add(question8);
         questionsList.add(question9);
         questionsList.add(question10);
+        questionsList.add(question11);
+        questionsList.add(question12);
+        questionsList.add(question13);
+        questionsList.add(question14);
+        questionsList.add(question15);
+        questionsList.add(question16);
+        questionsList.add(question17);
+        questionsList.add(question18);
+        questionsList.add(question19);
+        questionsList.add(question20);
 
         return questionsList;
     }
@@ -311,9 +386,70 @@ public class QuestionsBank {
         final QuestionsList question10 = new QuestionsList("Какой металл является самым легким?",
                 "Железо",
                 "Титан",
-                "Алюминий",
+                "Литий",
                 "Медь",
-                "Алюминий", "");
+                "Литий", "");
+        final QuestionsList question11 = new QuestionsList("Кто написал пьесу «Гамлет»? ",
+                "Лев Толстой",
+                "Виктор Гюго",
+                "Уильям Шекспир",
+                "Оноре де Бальзак",
+                "Уильям Шекспир", "");
+        final QuestionsList question12 = new QuestionsList("Сколько планет в Солнечной системе?",
+                "7",
+                "8",
+                "9",
+                "10",
+                "8", "");
+        final QuestionsList question13 = new QuestionsList("Какое животное самое высокое?",
+                "Слон",
+                "Лошадь",
+                "Верблюд",
+                "Жираф",
+                "Жираф", "");
+        final QuestionsList question14 = new QuestionsList("Какой элемент таблицы Менделеева обозначается как Au",
+                "Железо",
+                "Серебро",
+                "Золото",
+                "Уран",
+                "Золото", "");
+        final QuestionsList question15 = new QuestionsList("Какая планета ближе всего к Солнцу?",
+                "Земля",
+                "Венера",
+                "Меркурий",
+                "Марс",
+                "Меркурий", "");
+        final QuestionsList question16 = new QuestionsList("Кто был первым президентом США?",
+                "Томас Джефферсон",
+                "Авраам Линкольн",
+                "Джон Адамс",
+                "Джордж Вашингтон",
+                "Джордж Вашингтон", "");
+        final QuestionsList question17 = new QuestionsList("Какая планета называется красной?",
+                "Венера",
+                "Сатурн",
+                "Марс",
+                "Юпитер",
+                "Марс", "");
+        final QuestionsList question18 = new QuestionsList("Какой океан самый глубокий?",
+                "Атлантический",
+                "Тихий",
+                "Индийский",
+                "Южный",
+                "Тихий", "");
+        final QuestionsList question19 = new QuestionsList("Какой металл является самым легким?",
+                "Ван Гог",
+                "Пикассо",
+                "Леонардо да Винчи",
+                "Микеланджело",
+                "Леонардо да Винчи", "");
+        final QuestionsList question20 = new QuestionsList("Какая птица не умеет летать?",
+                "Орёл",
+                "Фламинго",
+                "Страус",
+                "Пеликан",
+                "Страус", "");
+
 
         questionsList.add(question1);
         questionsList.add(question2);
@@ -325,6 +461,16 @@ public class QuestionsBank {
         questionsList.add(question8);
         questionsList.add(question9);
         questionsList.add(question10);
+        questionsList.add(question11);
+        questionsList.add(question12);
+        questionsList.add(question13);
+        questionsList.add(question14);
+        questionsList.add(question15);
+        questionsList.add(question16);
+        questionsList.add(question17);
+        questionsList.add(question18);
+        questionsList.add(question19);
+        questionsList.add(question20);
 
         return questionsList;
     }

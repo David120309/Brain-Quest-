@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "696254567833",
+    "firebase_url": "https://brainquest12-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "brainquest12",
+    "storage_bucket": "brainquest12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696254567833:android:3690e8753873684460ef08",
+        "android_client_info": {
+          "package_name": "david.yesayan.quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIiaRzZLLUBMg8dJ6ch43C9HNOGLMciDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
